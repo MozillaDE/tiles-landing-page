@@ -103,6 +103,14 @@ p, ul, ol, dl, hgroup {
     margin: 0px 0px 20px;
 }
 
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    -moz-padding-start: 40px;
+}
+
 .module {
     padding-top: 20px;
 }
@@ -191,6 +199,13 @@ p, ul, ol, dl, hgroup {
     content: " · ";
 }
 
+#colophon .col-2 ul li.clear {
+    clear: both;
+}
+#colophon .col-2 ul li {
+    float: left;
+}
+
 #colophon li {
     float: left;
 }
@@ -219,3 +234,11 @@ p, ul, ol, dl, hgroup {
 #colophon .links-social li li:first-child:before {
     content: "";
 }
+
+#colophon .row::after {
+    display: block;
+    visibility:hidden;
+    height: 0px;
+    clear:both;
+    content: ".";
+} 
