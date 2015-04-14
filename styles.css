@@ -82,6 +82,49 @@ body {
     padding-top: 100px;
 }
 
+h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: #C13832;
+    font-family: "Open Sans Light", "Open Sans", sans-serif;
+    font-weight: normal;
+    display: block;
+    margin: 0px 0px 12px;
+    line-height: 1;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    letter-spacing: -0.035em;
+}
+
+.head-stats {
+    list-style: outside none none;
+    margin: 30px auto;
+    width: 960px;
+    padding: 0px;
+}
+
+.head-stats li {
+    float: left;
+    width: 300px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.head-stats strong {
+    display: block;
+    font-size: 2.625rem;
+    line-height: 1.1;
+    font-family: "Open Sans Light",X-LocaleSpecific-Light,"Open Sans",X-LocaleSpecific,sans-serif;
+    font-weight: normal;
+}
+
+.head-stats::after {
+    display: block;
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+    content: ".";
+}
+
 .section-title {
     font-family: "Open Sans Light", "Open Sans", sans-serif;
     font-weight: normal;
@@ -93,8 +136,8 @@ body {
     padding-top: 1em;
 }
 
-#general-community {
-
+#general-community p {
+    margin-top: 3em;
 }
 
 #steps {
