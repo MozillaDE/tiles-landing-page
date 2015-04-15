@@ -89,7 +89,7 @@ h1 {
     font-family: "Open Sans Light", "Open Sans", sans-serif;
     font-weight: normal;
     display: block;
-    margin: 0px 0px 12px;
+    margin: 0px 0px 48px;
     line-height: 1;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
     letter-spacing: -0.035em;
@@ -215,6 +215,90 @@ h1 {
     white-space: nowrap;
 }
 
+.member-box {
+    position: relative;
+}
+
+.members-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style: outside none none;
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.member-item {
+    flex: auto;
+}
+
+.member-item h3 {
+    margin-top: 1em;
+}
+
+.member-item img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #C13832;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.member-item strong {
+    font-weight: bold;
+    font-size: 1.125rem;
+    letter-spacing: normal;
+    margin: 0px 0px 0.25em;
+}
+
+.member-box-content {
+    color: #fff;
+    min-height: 200px;
+    background-color: #C13832;
+    padding: 0px 20px 10px 20px;
+    box-shadow: 1px 1px 5px 0px rgba(169, 50, 50, 0.9);
+}
+
+.member-box-content:before {
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #C13832;
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 130px;
+}
+
+.member-description {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.member-box-content h2 {
+    color: #fff;
+}
+
+.member-content {
+    flex: auto;
+    max-width: 75%;
+    padding-right: 40px;
+}
+
+.participating {
+    flex: auto;
+}
+
+.participating ul {
+    margin-left: 30px;
+}
+
 ol {
     display: block;
     list-style-type: decimal;
@@ -244,11 +328,11 @@ ul, menu, dir {
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    -moz-padding-start: 40px;
 }
 
 .module {
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .module:last-child {
