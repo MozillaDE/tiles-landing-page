@@ -270,8 +270,43 @@ h1 {
     border-bottom: 30px solid #C13832;
     content: '';
     position: absolute;
+}
+
+.member-box-content.arrow-reversed:before {
+    border-bottom: none;
+    border-top: 30px solid #C13832;;
+}
+
+#member-box-1 .member-box-content:before {
     top: -30px;
     left: 130px;
+}
+
+#member-box-2 .member-box-content:before {
+    top: -30px;
+    left: 450px;
+}
+
+#member-box-3 .member-box-content:before {
+    top: -30px;
+    left: 770px;
+}
+
+#member-box-4 .member-box-content:before {
+    top: 395px;
+    left: 450px;
+}
+
+.active {
+
+}
+
+.member-box {
+    display: none;
+}
+
+.member-box.active {
+    display: block;
 }
 
 .member-description {
@@ -287,7 +322,7 @@ h1 {
 
 .member-content {
     flex: auto;
-    max-width: 75%;
+    max-width: 70%;
     padding-right: 40px;
 }
 
@@ -296,7 +331,7 @@ h1 {
 }
 
 .participating ul {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 ol {

@@ -57,58 +57,120 @@
                 <h1 class="page-title">Lernen Sie uns kennen!</h1>
 
                 <ul class="members-row member-row-1">
-                    <li class="member-item">
-                        <img src="https://mozorg.cdn.mozilla.net/media/img/contribute/person-michael.ab10228a2906.jpg" alt="" />
-                        <h3>Mexikohler</h3>
-                        <p>Mexiko</p>
+                    <li class="member-item" onclick="showBox(1);">
+                        <img src="https://mozillians.org/media/uploads/sorl-cache/92/e6/92e62700d3df036ad22774ad641c13f4.jpg" alt="" />
+                        <h3>Jan</h3>
+                        <p>Webseiten</p>
                     </li>
-                    <li class="member-item">
-                        <img src="https://mozorg.cdn.mozilla.net/media/img/contribute/person-michael.ab10228a2906.jpg" alt="" />
-                        <h3>Hans</h3>
-                        <p>Lokalisierung</p>
-                    </li>
-                    <li class="member-item">
-                        <img src="https://mozorg.cdn.mozilla.net/media/img/contribute/person-michael.ab10228a2906.jpg" alt="" />
-                        <h3>Mustermann</h3>
+                    <li class="member-item" onclick="showBox(2);">
+                        <img src="https://mozillians.org/media/uploads/sorl-cache/b4/79/b479482345acc9743faaed4e23f1aa63.jpg" alt="Astrid Foto" />
+                        <h3>Astrid</h3>
                         <p>Support</p>
                     </li>
+                    <li class="member-item" onclick="showBox(3);">
+                        <img src="https://mozillians.org/media/uploads/sorl-cache/ad/07/ad075920552b31a2bd726c4a4123a412.jpg" alt="" />
+                        <h3>Sören</h3>
+                        <p>Blog</p>
+                    </li>
                 </ul>
-                <div class="member-box">
+
+
+                <div class="member-box active" id="member-box-1">
                     <div class="member-box-content">
-                        <h2>Hallo, ich bin der Michael aus Bern</h2>
+                        <h2>Hallo, ich bin Jan, ein Mozillianer in Deutschland</h2>
                         
                         <div class="member-description">
                             <div class="member-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+                                <p>2009 brauchte ich Hilfe von der Firefox-Gemeinschaft, die ich auch bekam. Einen Tag später kam ich als Mitglied zurück und begann Anderen zu helfen, wo ich nur konnte. Heute trage ich unter anderem im Bereich Grafikdesign dazu bei, dass Mozilla und die Produkte so aussehen, wie sie es tun. Wenn ich keine Pixel umherschiebe, helfe ich auch bei lokalen Veranstaltungen, um Menschen zu zeigen, wie einfach es ist, Inhalte im Internet zu erstellen. Parallel dazu pflege ich nicht nur mozilla.de, sondern auch jede Art von Website, die überarbeitet werden muss.</p>
+
+                                <p>Das Tolle ist, dass man nicht nur jeden Tag Mozillianer mit den selben Interessen und Zielen kennenlernt, sondern, dass man generell ständig dazulernt und das Gelernte auf andere Bereiche innerhalb und außerhalb Mozillas anwenden kann. Seien es Web-Technologien oder Prinzipien für ein offenes Internet. Also, mach mit!</p>
                             </div>
 
                             <div class="participating">
                                 <h3>Ich helfe derzeit bei:</h3>
                                 <ul>
-                                    <li>Foo</li>
-                                    <li>Bar</li>
-                                    <li>Baz</li>
+                                    <li>mozilla.de</li>
+                                    <li>Design und Webgestaltung</li>
+                                    <li>Veranstaltungen der Gemeinschaft</li>
                                 </ul>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
+                <div class="member-box" id="member-box-2">
+                    <div class="member-box-content">
+                        <h2>Hallo, ich bin Astrid (Zitronella), eine Mozillianerin aus Deutschland</h2>
+                        
+                        <div class="member-description">
+                            <div class="member-content">
+                                <p>Unabhängig von meinem Beruf,im sozialen Bereich, interessiere ich mich ab ca. 2004 kontinuierlich für die Entwicklung von Open Source Programmen und insbesondere für Firefox. Durch ständiges Aneignen von Kenntnissen, konnte ich diese bald erfolgreich an andere Menschen weiter vermitteln.  Seit 2010 beteilige ich mich aktiv in der Gemeinschaft.</p>
+
+                                <p>Mein Fokus liegt darauf, ganz konkret Menschen in akuten Situationen bei Firefox (Problemen) zu helfen. Dabei ist es mir wichtig, ganz individuell auf den Menschen ein zu gehen und im Einzelfall, auch über das Projekt hinaus, weitreichendere Hilfestellungen und Aufklärung zu geben. Dabei unterstütze ich den Hilfesuchenden auch darin, die Fähigenkeiten in den Grundlagen von Computern und Internet weiter zu entwickeln. Die Firefox Gemeinschaft im Rücken zu haben, mich mit ihnen auszutauschen und zusammenzuarbeiten ist für mich von enormer Bedeutung und eine Bereicherung.</p>
+                            </div>
+
+                            <div class="participating">
+                                <h3>Ich helfe derzeit bei:</h3>
+                                <ul>
+                                    <li>Deutscher Firefox Hilfechat</li>
+                                    <li>Deutsches Firefox Forum</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-box" id="member-box-3">
+                    <div class="member-box-content">
+                        <h2>Hallo, ich bin Sören, ein Mozillianer aus Österreich</h2>
+                        
+                        <div class="member-description">
+                            <div class="member-content">
+                                <p>Seit 2010 informiere ich über aktuelle Entwicklungen rund um Mozilla. Mein Ziel ist es, anderen Menschen eine verlässliche Quelle über Mozilla zu bieten und all die Informationen einfach und in deutscher Sprache zugänglich zu machen, welche über viele Quellen und oft zunächst nur auf Englisch im Web verteilt sind. Mehr als 300 Artikel pro Jahr veröffentliche ich zu diesem Zweck.</p>
+
+                                <p>Im Firefox-Support aktiv bin ich seit Ende 2011 und seit 2013 darüber hinaus Administrator des deutschsprachigen Firefox-Forums und für die technischen Aspekte verantwortlich. Ebensfalls seit 2013 bin ich offiizieller Mozilla Representative. Im Jahr 2014 habe ich eine Webseite gestartet, welche alle bereits erhältlichen sowie kommenden Geräte mit Firefox OS sowie deren Spezifikationen anzeigt und dadurch für Interessierte vergleichbar macht, ohne dass sich diese alle Informationen von verschiedenen Webseiten zusammensuchen müssen. </p>
+                            </div>
+
+                            <div class="participating">
+                                <h3>Ich helfe derzeit bei:</h3>
+                                <ul>
+                                    <li>Blog</li>
+                                    <li>Firefox-Support-Forum</li>
+                                    <li>Firefox OS Gerätdokumentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-box" id="member-box-4">
+                    <div class="member-box-content arrow-reversed">
+                        <h2>Hallo, ich bin Michael, ein Mozillianer aus der Schweiz</h2>
+                        
+                        <div class="member-description">
+                            <div class="member-content">
+                                <p>Ich habe 2008 als Teenager angefangen, Patches zu Firefox beizutragen. Vier Jahre später beschloss ich, offiziell Mozilla Rep zu werden und helfe seitdem beim Aufbau der schweizer Mozilla-Gemeinschaft.</p>
+
+                                <p>Neben der Organisation von Veranstaltungen der Gemeinschaft in der Schweiz koordiniere ich auch Veranstaltungen in Deutschland und Österreich, was mich zu einem der wenigen Mozillianer macht, der bei Veranstaltungen in drei verschiedenen Ländern hilft – und das alles im Abstand weniger Monate. Mein Ziel ist es jetzt, unsere weltweite Gemeinschaft durch Lokalisierung (Übersetzung), Programmieren und Webmaker-Projekte weiter wachsen zu lassen. Wenn Sie Interesse daran haben, melden Sie sich bitte.</p>
+                            </div>
+
+                            <div class="participating">
+                                <h3>Ich helfe derzeit bei:</h3>
+                                <ul>
+                                    <li>Community Building (DE-Wort??)</li>
+                                    <li>Events</li>
+                                    <li>Mozilla Schweiz</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <ul class="members-row member-row-2">
-                    <li class="member-item">
+                    <li class="member-item" onclick="showBox(4);">
                         <img src="https://mozorg.cdn.mozilla.net/media/img/contribute/person-michael.ab10228a2906.jpg" alt="" />
-                        <h3>Mexikohler</h3>
-                        <p>Mexiko</p>
-                    </li>
-                    <li class="member-item">
-                        <img src="https://mozorg.cdn.mozilla.net/media/img/contribute/person-michael.ab10228a2906.jpg" alt="" />
-                        <h3>Hans</h3>
-                        <p>Lokalisierung</p>
-                    </li>
-                    <li class="member-item">
-                        <img src="https://mozorg.cdn.mozilla.net/media/img/contribute/person-michael.ab10228a2906.jpg" alt="" />
-                        <h3>Mustermann</h3>
-                        <p>Support</p>
+                        <h3>Michael</h3>
+                        <p>Community</p>
                     </li>
                 </ul>
             </div>
@@ -157,5 +219,7 @@
             </div>
         </nav>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
