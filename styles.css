@@ -177,13 +177,17 @@ h1 {
 }
 
 .steps li::after {
-    content: "";
-    font-family: "Font Awesome";
+    content: "\f178";
+    font-family: "FontAwesome";
     font-size: 2.8125rem;
     color: #D7D3C8;
     position: absolute;
     right: -35px;
     top: 50px;
+}
+
+.steps li:last-child:after {
+    content: "";
 }
 
 .cta {
