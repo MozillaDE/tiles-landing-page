@@ -268,29 +268,24 @@ h1 {
     position: absolute;
 }
 
-.member-box-content.arrow-reversed:before {
-    border-bottom: none;
-    border-top: 30px solid #C13832;;
-}
-
 #member-box-1 .member-box-content:before {
     top: -30px;
-    left: 130px;
+    left: 90px;
 }
 
 #member-box-2 .member-box-content:before {
     top: -30px;
-    left: 450px;
+    left: 330px;
 }
 
 #member-box-3 .member-box-content:before {
     top: -30px;
-    left: 770px;
+    left: 570px;
 }
 
 #member-box-4 .member-box-content:before {
-    bottom: -30px;
-    left: 450px;
+    top: -30px;
+    left: 810px;
 }
 
 .active {
