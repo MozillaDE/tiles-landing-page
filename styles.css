@@ -143,6 +143,9 @@ h1 {
 .steps {
     list-style: outside none none;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .steps li {
@@ -242,9 +245,12 @@ h1 {
     display: block;
     width: 180px;
     height: 180px;
-    border: 5px solid #C13832;
     border-radius: 100%;
     margin: 0 auto;
+}
+
+.member-item img.active {
+    border: 5px solid #C13832;
 }
 
 .member-item strong {
@@ -260,40 +266,6 @@ h1 {
     background-color: #C13832;
     padding: 0px 20px 10px 20px;
     box-shadow: 1px 1px 5px 0px rgba(169, 50, 50, 0.9);
-}
-
-.member-box-content:before {
-    width: 0; 
-    height: 0; 
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 30px solid #C13832;
-    content: '';
-    position: absolute;
-}
-
-#member-box-1 .member-box-content:before {
-    top: -30px;
-    left: 90px;
-}
-
-#member-box-2 .member-box-content:before {
-    top: -30px;
-    left: 330px;
-}
-
-#member-box-3 .member-box-content:before {
-    top: -30px;
-    left: 570px;
-}
-
-#member-box-4 .member-box-content:before {
-    top: -30px;
-    left: 810px;
-}
-
-.active {
-
 }
 
 .member-box {
@@ -511,10 +483,6 @@ ul, menu, dir {
     #colophon {
         box-sizing: border-box;
     }
-
-    #tabzilla {
-
-    }
 }
 
 @media screen and (max-width: 1020px) {
@@ -539,56 +507,19 @@ ul, menu, dir {
         height: 80px;
     }
 
-    #members .members-row {
-        display: block;
+    .member-item img.active {
+        border: 3px solid #C13832;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .steps li::after {
+        content: "";
     }
 
-    #members .members-row:after {
-        content: '';
-        display: table;
-        clear: both;
+    .steps {
+        flex-direction: column;
     }
-
-    #members .members-row li {
-        float: left;
-        width: 28%;
-        height: auto;
-    }
-
-    #members .members-row li:nth-child(2) {
-        margin: 0 8%;
-    }
-
-    #members .members-row img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #members .member-row-2 li {
-        float: none;
-        margin: 0 auto;
-    }
-
-    #member-box-1 .member-box-content::before {
-        left: 10%;
-    }
-
-    #member-box-2 .member-box-content::before {
-        left: 50%;
-        margin-left: -30px;
-    }
-
-    #member-box-3 .member-box-content::before {
-        left: auto;
-        right: 10%;
-        margin-right: -10px;
-    }
-
-    #member-box-4 .member-box-content::before {
-        left: 50%;
-        margin-left: -25px;
-    }
-
 }
 
 @media screen and (max-width: 645px) {
