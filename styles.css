@@ -345,6 +345,23 @@ ul, menu, dir {
     min-height: 200px;
 }
 
+#cta_header {
+  background: url("images/cta_background.jpg");
+  width: 100%;
+  margin-bottom: 2em;
+  text-align: center;
+  display: table;
+}
+
+#cta_header h1 {
+  color: #fff;
+  font-size: 3em;
+}
+
+#cta_header div {
+  margin-top: 30px;
+  vertical-align: middle;
+}
 
 /* Mozilla FOOTER */
 #colophon .logo a {
