@@ -594,6 +594,11 @@ ul, menu, dir {
         box-sizing: border-box;
         width: 100%;
     }
+    
+    .cta {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
 
     .cta a {
         box-sizing: border-box;
