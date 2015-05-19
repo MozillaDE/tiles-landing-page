@@ -229,7 +229,7 @@ h1 {
     flex-wrap: nowrap;
     align-items: center;
     list-style: outside none none;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
     text-align: center;
 }
 
@@ -247,11 +247,11 @@ h1 {
     height: 180px;
     border-radius: 100%;
     margin: 0 auto;
-    border: 5px solid transparent;
+    border: 10px solid transparent;
 }
 
 .member-item img.active {
-    border: 5px solid #C13832;
+    border: 10px solid #C13832;
 }
 
 .member-item strong {
@@ -342,13 +342,10 @@ ul, menu, dir {
     padding-bottom: 30px;
 }
 
-#general-community {
-    min-height: 200px;
-}
-
 #cta_header {
   background: url("images/cta_background.jpg");
   width: 100%;
+  min-height: 500px;
   margin-bottom: 2em;
   text-align: center;
   display: table;
@@ -356,6 +353,7 @@ ul, menu, dir {
 
 #cta_header h1 {
   color: #fff;
+  text-shadow: 2px 2px 3px #000;
   font-size: 3em;
 }
 
@@ -526,11 +524,11 @@ ul, menu, dir {
     }
 
     .member-item img {
-      border: 3px solid transparent;
+      border: 6px solid transparent;
     }
 
     .member-item img.active {
-        border: 3px solid #C13832;
+        border: 6px solid #C13832;
     }
 }
 
