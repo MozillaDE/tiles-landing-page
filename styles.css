@@ -344,6 +344,7 @@ ul, menu, dir {
 
 #cta_header {
   background: url("images/cta_background.jpg");
+  background-position: top;
   width: 100%;
   min-height: 500px;
   margin-bottom: 2em;
