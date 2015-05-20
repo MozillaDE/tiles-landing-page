@@ -553,7 +553,7 @@ ul, menu, dir {
     }
 
     #masthead #nav-main-menu li {
-        display: block;
+        margin-right: 2em;
     }
 
     #masthead #nav-main-menu li a {
