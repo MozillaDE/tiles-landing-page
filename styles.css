@@ -267,7 +267,6 @@ h1 {
     min-height: 200px;
     background-color: #C13832;
     padding: 0px 20px 10px 20px;
-    box-shadow: 1px 1px 5px 0px rgba(169, 50, 50, 0.9);
 }
 
 .member-box {
@@ -595,7 +594,7 @@ ul, menu, dir {
         box-sizing: border-box;
         width: 100%;
     }
-    
+
     .cta {
         margin-left: 48px;
         margin-right: 48px;
