@@ -345,6 +345,7 @@ ul, menu, dir {
 
 #cta_header {
   background: url("images/cta_background.jpg");
+  background-position: top;
   width: 100%;
   min-height: 500px;
   margin-bottom: 2em;
@@ -593,6 +594,11 @@ ul, menu, dir {
     .steps li {
         box-sizing: border-box;
         width: 100%;
+    }
+    
+    .cta {
+        margin-left: 48px;
+        margin-right: 48px;
     }
 
     .cta a {
