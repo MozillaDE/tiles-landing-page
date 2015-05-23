@@ -350,21 +350,17 @@ ul, menu, dir {
   background: url("images/cta_background.jpg");
   background-position: top;
   width: 100%;
-  min-height: 500px;
-  margin-bottom: 2em;
-  text-align: center;
-  display: table;
+  min-height: 150px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 #cta_header h1 {
   color: #fff;
   text-shadow: 2px 2px 3px #000;
   font-size: 4.5em;
-}
-
-#cta_header div {
-  margin-top: 30px;
-  vertical-align: middle;
+  margin: 0px;
 }
 
 /* Mozilla FOOTER */
