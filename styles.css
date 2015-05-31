@@ -292,6 +292,15 @@ h1 {
     color: #fff;
 }
 
+.member-box a,
+member-box a:visited,
+member-box a:focus,
+member-box a:active,
+member-box a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .member-content {
     flex: auto;
     max-width: 70%;
