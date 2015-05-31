@@ -390,13 +390,13 @@ ul, menu, dir {
 #colophon a,
 #colophon a:link,
 #colophon a:visited {
-    color: #0096DD;
+    color: #43C2FF;
 }
 
 #colophon a:hover,
 #colophon a:focus,
 #colophon a:active {
-    color: #76D3FF;
+    color: #10B1FF;
     text-decoration: underline;
 }
 
@@ -428,10 +428,12 @@ ul, menu, dir {
 
 #colophon .col-2 ul {
     overflow: hidden;
+    list-style-type: none;
+    line-height: 1.5;
 }
 
 #colophon .col-2 ul li.wrap::before {
-    content: " · ";
+  content: "\00A0\00B7\00A0"; /* &nbsp;&middot;&nbsp; */
 }
 
 #colophon .col-2 ul li.clear {
@@ -447,10 +449,6 @@ ul, menu, dir {
 
 #colophon li .clear {
     clear: both;
-}
-
-#colophon li .wrap:before {
-    content: "\00A0\00B7\00A0"; /* &nbsp;&middot;&nbsp; */
 }
 
 #colophon .links-social li ul {
