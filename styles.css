@@ -460,14 +460,6 @@ ul, menu, dir {
     display: inline;
 }
 
-#colophon .links-social li li:before {
-    content: "\00B7\00A0"; /* &middot;&nbsp; */
-}
-
-#colophon .links-social li li:first-child:before {
-    content: "";
-}
-
 #colophon .row::after {
     display: block;
     visibility:hidden;
