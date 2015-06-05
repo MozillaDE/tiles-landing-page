@@ -528,6 +528,10 @@ ul, menu, dir {
         width: 100%;
         max-width: 100%;
     }
+
+    .member-content {
+        padding-right: 0px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
