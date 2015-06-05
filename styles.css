@@ -218,6 +218,10 @@ h1 {
     padding: 20px 30px;
 }
 
+.cta a:hover {
+    background-color: #00A7F7;
+}
+
 .cta a::after {
     content: " »";
     white-space: nowrap;
