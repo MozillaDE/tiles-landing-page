@@ -377,6 +377,7 @@ ul, menu, dir {
   background-position: top;
   width: 100%;
   min-height: 150px;
+  max-height: 150px;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -664,5 +665,11 @@ ul, menu, dir {
 
   #masthead #nav-main-menu li:last-child {
     margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  #cta_header h1 {
+    font-size: 4.2em;
   }
 }
