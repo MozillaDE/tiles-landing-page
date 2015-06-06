@@ -74,6 +74,10 @@ body {
     font-weight: normal;
 }
 
+#masthead nav li a:hover {
+  text-decoration: underline;
+}
+
 .main-header {
     padding-top: 100px;
 }
