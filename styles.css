@@ -305,7 +305,7 @@ h1 {
 .member-box a:focus,
 .member-box a:active,
 .member-box a:hover {
-  color: #fff;
+  color: rgb(210, 210, 210);
 }
 
 .member-box a:focus,
