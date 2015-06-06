@@ -13,7 +13,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 body {
-    border-top: 2px solid white;
     font-size: 0.875rem;
     line-height: 1.5;
     font-family: "Open Sans", sans-serif;
@@ -26,6 +25,7 @@ body {
 }
 
 .main-header {
+    border-top: 2px solid white;
     background: #C13832 none repeat scroll 0% 0%;
     width: 100%;
     padding: 0;
